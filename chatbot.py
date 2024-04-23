@@ -5,8 +5,8 @@ import time
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM 
 #from transformers import pipeline
 import torch 
-#import textwrap 
-#from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader, PDFMinerLoader 
+# import textwrap 
+# from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader, PDFMinerLoader 
 # from langchain.text_splitter import RecursiveCharacterTextSplitter 
 # from langchain.embeddings import SentenceTransformerEmbeddings 
 # from langchain.vectorstores import Chroma 
@@ -14,7 +14,7 @@ from langchain.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA 
 from langchain_community.document_loaders import TextLoader, PyPDFLoader, DirectoryLoader, PDFMinerLoader 
 
-from constants import CHROMA_SETTINGS
+# from constants import CHROMA_SETTINGS
 from streamlit_chat import message
 from dotenv import load_dotenv
 from langchain_openai import AzureChatOpenAI
